@@ -26,11 +26,12 @@ There are five types of operator:
 1. Arithmetic Operator.
 2. Comparison Operator.
 3. Logical Operator.
-4. Conditional Operator.
+4. Assignment Operator.
+5. Conditional Operator.
 
-- <u>**Arithmetic  Operator:**</u>   +, -, *,  /, %, this are arithmetic operator. In programming we use % to finding **Remainder***. There are another two types of operator that is ++,--.
+- <u>**Arithmetic  Operator:**</u>   +, -, *,  /, %, this are arithmetic operator. In programming we use % to finding **Remainder***. There are another two types of operator that is **++,--.** 
 
-++ means adding 1 itself and it also called increment. and -- means subtract  1 from itself and it also called decrement.
+**++**  means adding 1 itself and it also called increment. and **--**  means subtract  1 from itself and it also called decrement.
 
 - <u>***Comparison Operator:***</u>   It  use for comparing two value. **==, !=, >, <, >=, <=**  those  are comparison operator. 
 
@@ -51,21 +52,47 @@ another two types  of comparison operator is === and !==.
 
 ***true***. but how? two variable convert  into one  type, than it will compare with each other. For removing  this problem here has another type operator ***===***, which i mention in above. if we write this condition  `if(a===b)` it will not execute if block because the  **===** check vale and data type also. **!=**  and **!==** is also like that.
 
- 
-
 - **<u>Logical Operator:</u>**   &&, ||, ! this are  logical operator. 
 
   Generally we  use **&&**  between two or more expression. If both expression is true than it show **true**  else  it show  **false**.
 
   **||** it also use  between two expression, if one expression is **true** than full expression  is **true**, and  if all expression is  **false** than full expression is  **false**. 
 
-- 
+  **!** it  change  the  result. that  means if  the result  is **false** it  will be **true**, and  **true** will be **false** 
 
+- <u>**Assignment Operator:**</u>  =, +=, -=, *=, /=, %= those are assignment operator. 
 
+  = we know about it. 
 
+  +=, -=, *=, /=, %= those  are shortcut  of **a=a+1;** **a=a-1;** **a=a+1;** **a=a/2;** **a=a%2;**
 
+  
 
+​	
 
+- <u>**Conditional Operator:**</u>   It also called ternary  operator. It's a shortcut form of  `if(){ } else{}` condition.
+
+  var a=10;
+
+  `if(a%2==0){`
+
+  `console.log("Even")`
+
+  `}`
+
+  `else{` 
+
+  ` console.log('Odd');` 
+
+  `}`
+
+  **short form is:**
+
+  ​			`a%2==0? 'Even' : 'Odd';`
+
+  ![](/home/mehedi/All Code/Javascript/picture/ternery.png)
+
+  
 
 1. 
 
